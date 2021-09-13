@@ -6,6 +6,10 @@ using UnityEngine;
 public class PlayerControl : MonoBehaviour
 {
 
+    
+    // for checking the current position of the player in the building Behaviour script
+    public Vector2 playerOffset;
+    
     [SerializeField] private GameObject cameraShakeGO;
     [SerializeField] private bool shaking;
 
@@ -13,6 +17,8 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] private LayerMask lPlatMask; // for ground checking
     [SerializeField] private LayerMask buildMask; // for checking if we hit a building
 
+    
+    
     public RaycastHit2D buildingHit;
 
     public bool canMove = true;
@@ -41,7 +47,7 @@ public class PlayerControl : MonoBehaviour
         pColl = GetComponent<Collider2D>();
         lPlatMask = LayerMask.GetMask("Platform");
         buildMask = LayerMask.GetMask("Building");
-       
+
     }
 
     // Update is called once per frame
@@ -50,7 +56,8 @@ public class PlayerControl : MonoBehaviour
         pRB.velocity = new Vector2(moving, pRB.velocity.y);
         Movement();
         Taunt();
-        
+        playerOffset = gameObject.transform.localPosition;
+
         if(moving >= 0.1f || !IsGrounded() || moving <= -0.1f)
             isMoving = true;
         else

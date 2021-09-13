@@ -26,9 +26,10 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Game Jam MonsterFame/Scripts/GameData.cs" />
       <option value="$PROJECT_DIR$/Assets/Game Jam MonsterFame/Scripts/SCale.cs" />
-      <option value="$PROJECT_DIR$/Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" />
       <option value="$PROJECT_DIR$/Assets/Game Jam MonsterFame/Scripts/PowerUp.cs" />
       <option value="$PROJECT_DIR$/Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game Jam MonsterFame/Scripts/SetingOptions.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1x7XFURgxxY6D6oO7w2wDkhMBip" />
@@ -41,6 +42,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -77,6 +79,7 @@
       <workItem from="1629708891084" duration="4450000" />
       <workItem from="1630282544373" duration="9982000" />
       <workItem from="1630886318915" duration="14108000" />
+      <workItem from="1631493092444" duration="17831000" />
     </task>
     <servers />
   </component>
