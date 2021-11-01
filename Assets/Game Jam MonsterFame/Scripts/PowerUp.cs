@@ -26,7 +26,10 @@ public class PowerUp : MonoBehaviour
         Timer();
     }
 
-    // upon entering trigger zone, begin power up sequence by activating a bool
+    /// <summary>
+    /// upon entering trigger zone, begin power up sequence by activating a bool
+    /// </summary>
+    /// <param name="other">The sample of collision collected from the incoming object.</param>
     private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.gameObject.CompareTag("Player"))
@@ -34,12 +37,13 @@ public class PowerUp : MonoBehaviour
             countingDown = true;
         }
         popUpText.gameObject.SetActive(true);
-        popUpText.text = $"Powering Up... {timer}";
+        popUpText.text = $"Powering Up... {timer.ToString("F0")}";
     }
 
     /// <summary>
-    /// as long as you stay within the zone you "power up" more until the timer expires on the power up
+    /// as long as you stay within the zone you "power up" more until the timer expires on the power up.
     /// </summary>
+    /// <param name="_collider">Collider being detected by this Gameobject</param>
     public void OnTriggerStay2D(Collider2D _collider)
     {
         
@@ -51,14 +55,14 @@ public class PowerUp : MonoBehaviour
             _collider.gameObject.transform.localScale += (new Vector3((.01f) * Time.deltaTime, (.01f) * Time.deltaTime,(.01f) * Time.deltaTime));
             pCntrl.moveSpeed += 2.5f * Time.deltaTime;
             pCntrl.jumpHeight += 0.1f * Time.deltaTime;
-            popUpText.text = $"Powering Up... {timer/*.ToString(F0) I get an error saying that it doesn't know where F0 is being referenced, Captain Falcon Please help. But yeah otherwise i would of had this here. My rider has very specific issues.*/}";
+            popUpText.text = $"Powering Up... {timer.ToString("F0")}";
         }
         
     }
 /// <summary>
 /// upon exiting, counting down is set to false.
 /// </summary>
-/// <param name="other">Takes in the collider that i</param>
+/// <param name="other">The collider that this gameObject's collider touches.</param>
     private void OnTriggerExit2D(Collider2D other)
     {
         if(other.gameObject.CompareTag("Player"))
@@ -71,7 +75,7 @@ public class PowerUp : MonoBehaviour
 
 
 /// <summary>
-/// Timer decreases in value if countingDown is True
+/// Timer decreases in value if countingDown is True. This lets the powerup know when to "expire" and dissapear
 /// </summary>
     public void Timer()
     {

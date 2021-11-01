@@ -5,6 +5,9 @@ using System.Collections.Generic;
 using UnityEditor.Experimental.GraphView;
 
 using UnityEngine;
+using UnityEngine.UI;
+
+using Random = System.Random;
 
 public class BuildingBehaviour : MonoBehaviour
 {
@@ -20,6 +23,12 @@ public class BuildingBehaviour : MonoBehaviour
     [SerializeField] private LayerMask playerMsk;
 
     private Vector2 playerPos;
+
+    [SerializeField]private Text screamingBeans;
+
+    private string[] words = { "AAAAA", "AAAA", "AAA" };
+    
+
 
     [SerializeField] private Vector2 currentPos;
     // Start is called before the first frame update
@@ -83,18 +92,29 @@ public class BuildingBehaviour : MonoBehaviour
         return buildinghit.collider != null;
     }
 /// <summary>
-/// performs a function to add force to the building to send it flying upon contact with the player
-/// using the "Touched" bool function.
+/// performs a function to move the gameobject to the right if Touched() returns true.
+/// Also creats pop up text that denote the building's feelings. if the same bool is true, else the text doesn't appear.
 /// </summary>
     private void onTouch()
     {
+        int mix = UnityEngine.Random.Range(0,3);
         if(Touched())
         {
             gameObject.transform.Translate(Vector3.right *Time.deltaTime);
+            screamingBeans.gameObject.SetActive(true);
+            
+            screamingBeans.text = words[mix];
+            
+        }
+        else
+        {
+            screamingBeans.gameObject.SetActive(false);
         }
     }
     
-    
+    /// <summary>
+    /// Upgrades the score by 1.
+    /// </summary>
     public void OnDestroy()
     {
         gameData.score++;

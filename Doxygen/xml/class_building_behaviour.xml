@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_building_behaviour" kind="class" language="C#" prot="public">
+    <compoundname>BuildingBehaviour</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_building_behaviour_1a19a7072a65ed33dbdde9342d7df2b1a4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_game_data" kindref="compound">GameData</ref></type>
+        <definition>GameData BuildingBehaviour.gameData</definition>
+        <argsstring></argsstring>
+        <name>gameData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" line="15" column="22" bodyfile="Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_building_behaviour_1ac32fa80431b11ad81a0fbdc1d489579b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_player_control" kindref="compound">PlayerControl</ref></type>
+        <definition>PlayerControl BuildingBehaviour.pCntrol</definition>
+        <argsstring></argsstring>
+        <name>pCntrol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" line="16" column="27" bodyfile="Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_building_behaviour_1a591c5f6630bc01476ed71c9812f98239" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 BuildingBehaviour.initialScale</definition>
+        <argsstring></argsstring>
+        <name>initialScale</name>
+        <initializer>= Vector3.one</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" line="17" column="21" bodyfile="Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_building_behaviour_1a019d00944cef41ffff858c83969aeadf" prot="private" static="no" mutable="no">
+        <type>Collider2D</type>
+        <definition>Collider2D BuildingBehaviour.cityColl</definition>
+        <argsstring></argsstring>
+        <name>cityColl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" line="19" column="25" bodyfile="Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_building_behaviour_1a285b5d9298e2c07e4055386a7f9e8c4a" prot="private" static="no" mutable="no">
+        <type>Rigidbody2D</type>
+        <definition>Rigidbody2D BuildingBehaviour.cRB</definition>
+        <argsstring></argsstring>
+        <name>cRB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" line="21" column="26" bodyfile="Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_building_behaviour_1ac3ab82dcf1f03d034daf644efd6a173a" prot="private" static="no" mutable="no">
+        <type>LayerMask</type>
+        <definition>LayerMask BuildingBehaviour.playerMsk</definition>
+        <argsstring></argsstring>
+        <name>playerMsk</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" line="23" column="24" bodyfile="Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_building_behaviour_1a36d481f12ed964493c24045f145eb96e" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 BuildingBehaviour.playerPos</definition>
+        <argsstring></argsstring>
+        <name>playerPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" line="25" column="21" bodyfile="Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_building_behaviour_1a4a9a6414976ac52f9f12317dc052f853" prot="private" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text BuildingBehaviour.screamingBeans</definition>
+        <argsstring></argsstring>
+        <name>screamingBeans</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" line="27" column="18" bodyfile="Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_building_behaviour_1a016ff88f3543584c28f234a2d38b6404" prot="private" static="no" mutable="no">
+        <type>string[]</type>
+        <definition>string [] BuildingBehaviour.words</definition>
+        <argsstring></argsstring>
+        <name>words</name>
+        <initializer>= { &quot;AAAAA&quot;, &quot;AAAA&quot;, &quot;AAA&quot; }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" line="29" column="20" bodyfile="Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_building_behaviour_1aa58b410f868f98b13b963a24aeb9e01e" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 BuildingBehaviour.currentPos</definition>
+        <argsstring></argsstring>
+        <name>currentPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" line="33" column="22" bodyfile="Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_building_behaviour_1a909b4565b53e543bf175294f720cf244" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BuildingBehaviour.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" line="35" column="10" bodyfile="Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" bodystart="35" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_building_behaviour_1a20313bd1fc4962e1cbc40dc9d76f114e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BuildingBehaviour.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" line="45" column="10" bodyfile="Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_building_behaviour_1a0684f155b037b4120ca37c9a855ecf0b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BuildingBehaviour.onTouch</definition>
+        <argsstring>()</argsstring>
+        <name>onTouch</name>
+        <briefdescription>
+<para>performs a function to move the gameobject to the right if <ref refid="class_building_behaviour_1a76a2946edd1e79bc4f6637842e1fac17" kindref="member">Touched()</ref> returns true. Also creats pop up text that denote the building&apos;s feelings. if the same bool is true, else the text doesn&apos;t appear. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" line="98" column="18" bodyfile="Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" bodystart="98" bodyend="113"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_building_behaviour_1acf95f740be750f704a23a0d2d069a3e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BuildingBehaviour.OnCollisionEnter2D</definition>
+        <argsstring>(Collision2D collision)</argsstring>
+        <name>OnCollisionEnter2D</name>
+        <param>
+          <type>Collision2D</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+<para>When an object collides with the top of the building it will &quot;crush&quot; the object by shrinking it by half. Once the object reaches a quarter of its size, it destroys itself. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" line="55" column="17" bodyfile="Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" bodystart="55" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_building_behaviour_1a76a2946edd1e79bc4f6637842e1fac17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool BuildingBehaviour.Touched</definition>
+        <argsstring>()</argsstring>
+        <name>Touched</name>
+        <briefdescription>
+<para>Runs a check to see whether or not the building is touching the player using a raycast. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" line="77" column="17" bodyfile="Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" bodystart="77" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_building_behaviour_1a7a44574347526762b829e8be44a14901" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BuildingBehaviour.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <briefdescription>
+<para>Upgrades the score by 1. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" line="118" column="17" bodyfile="Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" bodystart="118" bodyend="121"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>BuildingBehaviour</label>
+        <link refid="class_building_behaviour"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>BuildingBehaviour</label>
+        <link refid="class_building_behaviour"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" line="12" column="7" bodyfile="Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" bodystart="13" bodyend="122"/>
+    <listofallmembers>
+      <member refid="class_building_behaviour_1a019d00944cef41ffff858c83969aeadf" prot="private" virt="non-virtual"><scope>BuildingBehaviour</scope><name>cityColl</name></member>
+      <member refid="class_building_behaviour_1a285b5d9298e2c07e4055386a7f9e8c4a" prot="private" virt="non-virtual"><scope>BuildingBehaviour</scope><name>cRB</name></member>
+      <member refid="class_building_behaviour_1aa58b410f868f98b13b963a24aeb9e01e" prot="private" virt="non-virtual"><scope>BuildingBehaviour</scope><name>currentPos</name></member>
+      <member refid="class_building_behaviour_1a19a7072a65ed33dbdde9342d7df2b1a4" prot="private" virt="non-virtual"><scope>BuildingBehaviour</scope><name>gameData</name></member>
+      <member refid="class_building_behaviour_1a591c5f6630bc01476ed71c9812f98239" prot="private" virt="non-virtual"><scope>BuildingBehaviour</scope><name>initialScale</name></member>
+      <member refid="class_building_behaviour_1acf95f740be750f704a23a0d2d069a3e7" prot="public" virt="non-virtual"><scope>BuildingBehaviour</scope><name>OnCollisionEnter2D</name></member>
+      <member refid="class_building_behaviour_1a7a44574347526762b829e8be44a14901" prot="public" virt="non-virtual"><scope>BuildingBehaviour</scope><name>OnDestroy</name></member>
+      <member refid="class_building_behaviour_1a0684f155b037b4120ca37c9a855ecf0b" prot="private" virt="non-virtual"><scope>BuildingBehaviour</scope><name>onTouch</name></member>
+      <member refid="class_building_behaviour_1ac32fa80431b11ad81a0fbdc1d489579b" prot="private" virt="non-virtual"><scope>BuildingBehaviour</scope><name>pCntrol</name></member>
+      <member refid="class_building_behaviour_1ac3ab82dcf1f03d034daf644efd6a173a" prot="private" virt="non-virtual"><scope>BuildingBehaviour</scope><name>playerMsk</name></member>
+      <member refid="class_building_behaviour_1a36d481f12ed964493c24045f145eb96e" prot="private" virt="non-virtual"><scope>BuildingBehaviour</scope><name>playerPos</name></member>
+      <member refid="class_building_behaviour_1a4a9a6414976ac52f9f12317dc052f853" prot="private" virt="non-virtual"><scope>BuildingBehaviour</scope><name>screamingBeans</name></member>
+      <member refid="class_building_behaviour_1a909b4565b53e543bf175294f720cf244" prot="private" virt="non-virtual"><scope>BuildingBehaviour</scope><name>Start</name></member>
+      <member refid="class_building_behaviour_1a76a2946edd1e79bc4f6637842e1fac17" prot="public" virt="non-virtual"><scope>BuildingBehaviour</scope><name>Touched</name></member>
+      <member refid="class_building_behaviour_1a20313bd1fc4962e1cbc40dc9d76f114e" prot="private" virt="non-virtual"><scope>BuildingBehaviour</scope><name>Update</name></member>
+      <member refid="class_building_behaviour_1a016ff88f3543584c28f234a2d38b6404" prot="private" virt="non-virtual"><scope>BuildingBehaviour</scope><name>words</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -25,6 +25,9 @@ public class SetingOptions : MonoBehaviour
 	[SerializeField] private Slider fpsSlider;
 	[SerializeField] private TextMeshProUGUI fpsText;
 	[SerializeField] private TextMeshProUGUI currentFPStext;
+	/// <summary>
+	/// Limits framerate according to a Slider value
+	/// </summary>
 	public void LimitFramerate()
 	{
 		fpsSlider.wholeNumbers = true;
@@ -91,7 +94,9 @@ public class SetingOptions : MonoBehaviour
 		
 	}
 
-
+/// <summary>
+/// shows the resolution and FPS controls on screen like an adjustable hud.
+/// </summary>
 	private void StartResFPS()
 	{
 		resolutions = Screen.resolutions;
@@ -117,7 +122,10 @@ public class SetingOptions : MonoBehaviour
 
 	public void Update() => currentFPStext.text = $"{(1.0f / Time.smoothDeltaTime).ToString("F0")}FPS";
 	
-
+/// <summary>
+/// sets the resolution based on the option chesen
+/// </summary>
+/// <param name="_resolution">The resolutions that the computer can reach.</param>
 	public void SetResolution(int _resolution)
 	{
 		Resolution neverReachedA = resolutions[_resolution];

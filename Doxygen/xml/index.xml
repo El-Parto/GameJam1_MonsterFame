@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.2" xml:lang="en-US">
+  <compound refid="class_building_behaviour" kind="class"><name>BuildingBehaviour</name>
+    <member refid="class_building_behaviour_1a19a7072a65ed33dbdde9342d7df2b1a4" kind="variable"><name>gameData</name></member>
+    <member refid="class_building_behaviour_1ac32fa80431b11ad81a0fbdc1d489579b" kind="variable"><name>pCntrol</name></member>
+    <member refid="class_building_behaviour_1a591c5f6630bc01476ed71c9812f98239" kind="variable"><name>initialScale</name></member>
+    <member refid="class_building_behaviour_1a019d00944cef41ffff858c83969aeadf" kind="variable"><name>cityColl</name></member>
+    <member refid="class_building_behaviour_1a285b5d9298e2c07e4055386a7f9e8c4a" kind="variable"><name>cRB</name></member>
+    <member refid="class_building_behaviour_1ac3ab82dcf1f03d034daf644efd6a173a" kind="variable"><name>playerMsk</name></member>
+    <member refid="class_building_behaviour_1a36d481f12ed964493c24045f145eb96e" kind="variable"><name>playerPos</name></member>
+    <member refid="class_building_behaviour_1a4a9a6414976ac52f9f12317dc052f853" kind="variable"><name>screamingBeans</name></member>
+    <member refid="class_building_behaviour_1a016ff88f3543584c28f234a2d38b6404" kind="variable"><name>words</name></member>
+    <member refid="class_building_behaviour_1aa58b410f868f98b13b963a24aeb9e01e" kind="variable"><name>currentPos</name></member>
+    <member refid="class_building_behaviour_1a909b4565b53e543bf175294f720cf244" kind="function"><name>Start</name></member>
+    <member refid="class_building_behaviour_1a20313bd1fc4962e1cbc40dc9d76f114e" kind="function"><name>Update</name></member>
+    <member refid="class_building_behaviour_1a0684f155b037b4120ca37c9a855ecf0b" kind="function"><name>onTouch</name></member>
+    <member refid="class_building_behaviour_1acf95f740be750f704a23a0d2d069a3e7" kind="function"><name>OnCollisionEnter2D</name></member>
+    <member refid="class_building_behaviour_1a76a2946edd1e79bc4f6637842e1fac17" kind="function"><name>Touched</name></member>
+    <member refid="class_building_behaviour_1a7a44574347526762b829e8be44a14901" kind="function"><name>OnDestroy</name></member>
+  </compound>
+  <compound refid="class_game_data" kind="class"><name>GameData</name>
+    <member refid="class_game_data_1ac4f742cf29ee03016d263b5053874619" kind="variable"><name>score</name></member>
+    <member refid="class_game_data_1a7b8225b508c539cbea14a3e2ef14833a" kind="function"><name>Start</name></member>
+    <member refid="class_game_data_1a6bccee433f581754d2db729ca133b9a0" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_player_control" kind="class"><name>PlayerControl</name>
+    <member refid="class_player_control_1a8a1217eb13287264e0e57c2eaf65c31c" kind="variable"><name>playerOffset</name></member>
+    <member refid="class_player_control_1aaf0816c99e61394c6444ca570df79fcd" kind="variable"><name>buildingHit</name></member>
+    <member refid="class_player_control_1afe78cd48f387791a25a98c34a550d510" kind="variable"><name>canMove</name></member>
+    <member refid="class_player_control_1a30a1fff00f7a4f392a47e7d686556280" kind="variable"><name>moving</name></member>
+    <member refid="class_player_control_1a8e9424a47b392f020f59ff034a835f61" kind="variable"><name>moveSpeed</name></member>
+    <member refid="class_player_control_1a6dac3e9de8fe5262c19b77271c9919b8" kind="variable"><name>jumpHeight</name></member>
+    <member refid="class_player_control_1a12c8beb60f2f39db6e31871ce813de3e" kind="variable"><name>jumpSquatTimer</name></member>
+    <member refid="class_player_control_1a39d8415d269e497768e445b6cc6e7496" kind="variable"><name>isTaunting</name></member>
+    <member refid="class_player_control_1a9b0613fabe9f78b1ae537a44d952d559" kind="variable"><name>cameraShakeGO</name></member>
+    <member refid="class_player_control_1a143a5a30d8c1082cb7fc34b1de3947e0" kind="variable"><name>shaking</name></member>
+    <member refid="class_player_control_1af8777c7ad58fa53be64c4c8c63864643" kind="variable"><name>pRB</name></member>
+    <member refid="class_player_control_1a08e255ff741261bdff85f0b14584c943" kind="variable"><name>lPlatMask</name></member>
+    <member refid="class_player_control_1a50476503f7087d832527392ae671908a" kind="variable"><name>buildMask</name></member>
+    <member refid="class_player_control_1a3988abdbc5843167fdc9f6b745c92e94" kind="variable"><name>isTackling</name></member>
+    <member refid="class_player_control_1a2eb8e4de7ee0aa87d7b64d3e3027b993" kind="variable"><name>canTaunt</name></member>
+    <member refid="class_player_control_1a7c5553db4ddaa1a96fb9f36ef401d677" kind="variable"><name>canScale</name></member>
+    <member refid="class_player_control_1a3c91000165c5f3ba2ce4f150b3c755ed" kind="variable"><name>isMoving</name></member>
+    <member refid="class_player_control_1a14276e7c8f4f181f6dff087089364e65" kind="variable"><name>chilColl</name></member>
+    <member refid="class_player_control_1ad57d6a43d50f3182376d9839579560e9" kind="variable"><name>pColl</name></member>
+    <member refid="class_player_control_1aada0aa26ced08a253dfb12f7f1b8bd06" kind="function"><name>Start</name></member>
+    <member refid="class_player_control_1aa030b14f9c0fe12153375f5f2bbe5b60" kind="function"><name>Update</name></member>
+    <member refid="class_player_control_1ab0b2079238f8f0042a7b9808c95a081d" kind="function"><name>IsGrounded</name></member>
+    <member refid="class_player_control_1acb42219ae5dc549226b51cfc577d721a" kind="function"><name>Movement</name></member>
+    <member refid="class_player_control_1a5442eb93fe5bd6eabe410da01b0ae7e7" kind="function"><name>BodySlammed</name></member>
+    <member refid="class_player_control_1a9736d58588ccad0196f2a8a242eea37c" kind="function"><name>Taunt</name></member>
+    <member refid="class_player_control_1a74016c846e28b62d87f89528dfd6b4d9" kind="function"><name>IsScaled</name></member>
+  </compound>
+  <compound refid="class_power_up" kind="class"><name>PowerUp</name>
+    <member refid="class_power_up_1affa247396f5e51e0fa5703548f99d626" kind="variable"><name>timer</name></member>
+    <member refid="class_power_up_1a42bad7a1553b5fb15533740a16881c40" kind="variable"><name>pCntrl</name></member>
+    <member refid="class_power_up_1a44ad1560817ea89004e3a36f2e29020d" kind="variable"><name>popUpText</name></member>
+    <member refid="class_power_up_1aa517b66551cc4f8569ffb1be96a09e4e" kind="variable"><name>initialScale</name></member>
+    <member refid="class_power_up_1a0301bb57f08c187852324d652e6d9bfe" kind="variable"><name>currentScale</name></member>
+    <member refid="class_power_up_1a7e8ae9238190cf9513cb6db5a402aa62" kind="variable"><name>countingDown</name></member>
+    <member refid="class_power_up_1ab7ec06ab0ae1fe91b255f17e391ea3f3" kind="function"><name>Start</name></member>
+    <member refid="class_power_up_1ace9ab229deb5c68b4aaa0c700c00b59b" kind="function"><name>Update</name></member>
+    <member refid="class_power_up_1a919ab1820888e0cc4188116cfa48c0d5" kind="function"><name>OnTriggerEnter2D</name></member>
+    <member refid="class_power_up_1abbc985a0a233dd84518b3ed1897494f2" kind="function"><name>OnTriggerExit2D</name></member>
+    <member refid="class_power_up_1a715815f68d78a55daaa1ca606061564d" kind="function"><name>OnDestroy</name></member>
+    <member refid="class_power_up_1a5a01a53dec4c4cea460131c18d6a1b88" kind="function"><name>OnTriggerStay2D</name></member>
+    <member refid="class_power_up_1ad12744abdb197179d3676b775671d092" kind="function"><name>Timer</name></member>
+  </compound>
+  <compound refid="class_seting_options" kind="class"><name>SetingOptions</name>
+    <member refid="class_seting_options_1a38f769f9ffab3f3e7e54e3337c1f4925" kind="variable"><name>resolutions</name></member>
+    <member refid="class_seting_options_1a81d26a2b344b5eb9de74d120dd82bcac" kind="variable"><name>resDrop</name></member>
+    <member refid="class_seting_options_1a54c9123e007a5d8aacadd4a545468268" kind="variable"><name>options</name></member>
+    <member refid="class_seting_options_1a902e2c668a5fc39639fd2cac141b9c2b" kind="variable"><name>currentResolutionIndex</name></member>
+    <member refid="class_seting_options_1ad5b6f8f89ae4eb88827fb53e3a972cd6" kind="variable"><name>fpsSlider</name></member>
+    <member refid="class_seting_options_1a4ab1b84f7b0a449f4dea8cd976bdc8dc" kind="variable"><name>fpsText</name></member>
+    <member refid="class_seting_options_1adfb92b398b5271a7b5cae6813919b212" kind="variable"><name>currentFPStext</name></member>
+    <member refid="class_seting_options_1ac0aa3e0c35b4770d632ca0e05c792b11" kind="function"><name>LimitFramerate</name></member>
+    <member refid="class_seting_options_1a972eaac4c95b93d0d6f8eb480a95c1a3" kind="function"><name>Update</name></member>
+    <member refid="class_seting_options_1a817b84d3acded5a4829afc1bfd77e90a" kind="function"><name>SetResolution</name></member>
+    <member refid="class_seting_options_1ae63fb0a4ade604e94a86d261c2bee983" kind="function"><name>Start</name></member>
+    <member refid="class_seting_options_1a9895d9aff1a5804edc42fb12482f45aa" kind="function"><name>StartResFPS</name></member>
+  </compound>
+  <compound refid="namespace_random" kind="namespace"><name>Random</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections" kind="namespace"><name>System::Collections</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_t_m_pro" kind="namespace"><name>TMPro</name>
+  </compound>
+  <compound refid="namespace_unity_editor_1_1_experimental_1_1_graph_view" kind="namespace"><name>UnityEditor::Experimental::GraphView</name>
+  </compound>
+  <compound refid="namespace_unity_engine" kind="namespace"><name>UnityEngine</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_apple" kind="namespace"><name>UnityEngine::Apple</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_u_i" kind="namespace"><name>UnityEngine::UI</name>
+  </compound>
+  <compound refid="_building_behaviour_8cs" kind="file"><name>BuildingBehaviour.cs</name>
+    <member refid="_building_behaviour_8cs_1a24953b19d956caa76c403684c71b4e5b" kind="typedef"><name>Random</name></member>
+  </compound>
+  <compound refid="_game_data_8cs" kind="file"><name>GameData.cs</name>
+  </compound>
+  <compound refid="_player_control_8cs" kind="file"><name>PlayerControl.cs</name>
+  </compound>
+  <compound refid="_power_up_8cs" kind="file"><name>PowerUp.cs</name>
+  </compound>
+  <compound refid="_seting_options_8cs" kind="file"><name>SetingOptions.cs</name>
+  </compound>
+  <compound refid="dir_84bbf7b3c7f28a5a18725745e1505219" kind="dir"><name>Assets</name>
+  </compound>
+  <compound refid="dir_a64d38d9d7ec2fdf8f5daec1100fe138" kind="dir"><name>Assets/Game Jam MonsterFame</name>
+  </compound>
+  <compound refid="dir_7fe200dfb6c454470a9831feb10ad68b" kind="dir"><name>Assets/Game Jam MonsterFame/Scripts</name>
+  </compound>
+</doxygenindex>

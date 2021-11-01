@@ -1,0 +1,418 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_player_control" kind="class" language="C#" prot="public">
+    <compoundname>PlayerControl</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_player_control_1a8a1217eb13287264e0e57c2eaf65c31c" prot="public" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 PlayerControl.playerOffset</definition>
+        <argsstring></argsstring>
+        <name>playerOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" line="11" column="20" bodyfile="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1aaf0816c99e61394c6444ca570df79fcd" prot="public" static="no" mutable="no">
+        <type>RaycastHit2D</type>
+        <definition>RaycastHit2D PlayerControl.buildingHit</definition>
+        <argsstring></argsstring>
+        <name>buildingHit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" line="22" column="25" bodyfile="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1afe78cd48f387791a25a98c34a550d510" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlayerControl.canMove</definition>
+        <argsstring></argsstring>
+        <name>canMove</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" line="24" column="17" bodyfile="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a30a1fff00f7a4f392a47e7d686556280" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerControl.moving</definition>
+        <argsstring></argsstring>
+        <name>moving</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" line="25" column="18" bodyfile="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a8e9424a47b392f020f59ff034a835f61" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerControl.moveSpeed</definition>
+        <argsstring></argsstring>
+        <name>moveSpeed</name>
+        <initializer>= 275.3f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" line="26" column="18" bodyfile="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a6dac3e9de8fe5262c19b77271c9919b8" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerControl.jumpHeight</definition>
+        <argsstring></argsstring>
+        <name>jumpHeight</name>
+        <initializer>=29.4f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" line="27" column="18" bodyfile="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a12c8beb60f2f39db6e31871ce813de3e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerControl.jumpSquatTimer</definition>
+        <argsstring></argsstring>
+        <name>jumpSquatTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" line="28" column="18" bodyfile="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a39d8415d269e497768e445b6cc6e7496" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlayerControl.isTaunting</definition>
+        <argsstring></argsstring>
+        <name>isTaunting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" line="31" column="17" bodyfile="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_player_control_1a9b0613fabe9f78b1ae537a44d952d559" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject PlayerControl.cameraShakeGO</definition>
+        <argsstring></argsstring>
+        <name>cameraShakeGO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" line="13" column="25" bodyfile="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a143a5a30d8c1082cb7fc34b1de3947e0" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlayerControl.shaking</definition>
+        <argsstring></argsstring>
+        <name>shaking</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" line="14" column="19" bodyfile="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1af8777c7ad58fa53be64c4c8c63864643" prot="private" static="no" mutable="no">
+        <type>Rigidbody2D</type>
+        <definition>Rigidbody2D PlayerControl.pRB</definition>
+        <argsstring></argsstring>
+        <name>pRB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" line="16" column="25" bodyfile="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a08e255ff741261bdff85f0b14584c943" prot="private" static="no" mutable="no">
+        <type>LayerMask</type>
+        <definition>LayerMask PlayerControl.lPlatMask</definition>
+        <argsstring></argsstring>
+        <name>lPlatMask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" line="17" column="24" bodyfile="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a50476503f7087d832527392ae671908a" prot="private" static="no" mutable="no">
+        <type>LayerMask</type>
+        <definition>LayerMask PlayerControl.buildMask</definition>
+        <argsstring></argsstring>
+        <name>buildMask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" line="18" column="24" bodyfile="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a3988abdbc5843167fdc9f6b745c92e94" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlayerControl.isTackling</definition>
+        <argsstring></argsstring>
+        <name>isTackling</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" line="29" column="19" bodyfile="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a2eb8e4de7ee0aa87d7b64d3e3027b993" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlayerControl.canTaunt</definition>
+        <argsstring></argsstring>
+        <name>canTaunt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" line="30" column="19" bodyfile="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a7c5553db4ddaa1a96fb9f36ef401d677" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlayerControl.canScale</definition>
+        <argsstring></argsstring>
+        <name>canScale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" line="32" column="18" bodyfile="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a3c91000165c5f3ba2ce4f150b3c755ed" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PlayerControl.isMoving</definition>
+        <argsstring></argsstring>
+        <name>isMoving</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" line="33" column="19" bodyfile="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1a14276e7c8f4f181f6dff087089364e65" prot="private" static="no" mutable="no">
+        <type>Collider2D</type>
+        <definition>Collider2D PlayerControl.chilColl</definition>
+        <argsstring></argsstring>
+        <name>chilColl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" line="35" column="25" bodyfile="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_control_1ad57d6a43d50f3182376d9839579560e9" prot="private" static="no" mutable="no">
+        <type>Collider2D</type>
+        <definition>Collider2D PlayerControl.pColl</definition>
+        <argsstring></argsstring>
+        <name>pColl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" line="36" column="25" bodyfile="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_player_control_1aada0aa26ced08a253dfb12f7f1b8bd06" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerControl.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" line="43" column="10" bodyfile="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" bodystart="43" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_control_1aa030b14f9c0fe12153375f5f2bbe5b60" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerControl.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" line="54" column="10" bodyfile="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" bodystart="54" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_control_1ab0b2079238f8f0042a7b9808c95a081d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PlayerControl.IsGrounded</definition>
+        <argsstring>()</argsstring>
+        <name>IsGrounded</name>
+        <briefdescription>
+<para>the raycast that checks whether the player is on the ground. The ground is determined by colliding with a layermasked collider </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the collider that the Raycast makes contact with.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" line="112" column="18" bodyfile="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" bodystart="112" bodyend="131"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_player_control_1acb42219ae5dc549226b51cfc577d721a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerControl.Movement</definition>
+        <argsstring>()</argsstring>
+        <name>Movement</name>
+        <briefdescription>
+<para>Makes the player move based on input (Horizontal and Jump) also checks whether or not it&apos;s possible to do these actions by checking a bool </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" line="73" column="17" bodyfile="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" bodystart="73" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_control_1a5442eb93fe5bd6eabe410da01b0ae7e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PlayerControl.BodySlammed</definition>
+        <argsstring>()</argsstring>
+        <name>BodySlammed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" line="133" column="17" bodyfile="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" bodystart="133" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_control_1a9736d58588ccad0196f2a8a242eea37c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerControl.Taunt</definition>
+        <argsstring>()</argsstring>
+        <name>Taunt</name>
+        <briefdescription>
+<para>The user performs a taunt that allows them to increase their score by pressing the down key for cerain amount of time. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" line="161" column="17" bodyfile="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" bodystart="161" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_control_1a74016c846e28b62d87f89528dfd6b4d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PlayerControl.IsScaled</definition>
+        <argsstring>()</argsstring>
+        <name>IsScaled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" line="170" column="17" bodyfile="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" bodystart="170" bodyend="176"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PlayerControl</label>
+        <link refid="class_player_control"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>PlayerControl</label>
+        <link refid="class_player_control"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" line="6" column="7" bodyfile="Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" bodystart="7" bodyend="187"/>
+    <listofallmembers>
+      <member refid="class_player_control_1a5442eb93fe5bd6eabe410da01b0ae7e7" prot="public" virt="non-virtual"><scope>PlayerControl</scope><name>BodySlammed</name></member>
+      <member refid="class_player_control_1aaf0816c99e61394c6444ca570df79fcd" prot="public" virt="non-virtual"><scope>PlayerControl</scope><name>buildingHit</name></member>
+      <member refid="class_player_control_1a50476503f7087d832527392ae671908a" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>buildMask</name></member>
+      <member refid="class_player_control_1a9b0613fabe9f78b1ae537a44d952d559" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>cameraShakeGO</name></member>
+      <member refid="class_player_control_1afe78cd48f387791a25a98c34a550d510" prot="public" virt="non-virtual"><scope>PlayerControl</scope><name>canMove</name></member>
+      <member refid="class_player_control_1a7c5553db4ddaa1a96fb9f36ef401d677" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>canScale</name></member>
+      <member refid="class_player_control_1a2eb8e4de7ee0aa87d7b64d3e3027b993" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>canTaunt</name></member>
+      <member refid="class_player_control_1a14276e7c8f4f181f6dff087089364e65" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>chilColl</name></member>
+      <member refid="class_player_control_1ab0b2079238f8f0042a7b9808c95a081d" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>IsGrounded</name></member>
+      <member refid="class_player_control_1a3c91000165c5f3ba2ce4f150b3c755ed" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>isMoving</name></member>
+      <member refid="class_player_control_1a74016c846e28b62d87f89528dfd6b4d9" prot="public" virt="non-virtual"><scope>PlayerControl</scope><name>IsScaled</name></member>
+      <member refid="class_player_control_1a3988abdbc5843167fdc9f6b745c92e94" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>isTackling</name></member>
+      <member refid="class_player_control_1a39d8415d269e497768e445b6cc6e7496" prot="public" virt="non-virtual"><scope>PlayerControl</scope><name>isTaunting</name></member>
+      <member refid="class_player_control_1a6dac3e9de8fe5262c19b77271c9919b8" prot="public" virt="non-virtual"><scope>PlayerControl</scope><name>jumpHeight</name></member>
+      <member refid="class_player_control_1a12c8beb60f2f39db6e31871ce813de3e" prot="public" virt="non-virtual"><scope>PlayerControl</scope><name>jumpSquatTimer</name></member>
+      <member refid="class_player_control_1a08e255ff741261bdff85f0b14584c943" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>lPlatMask</name></member>
+      <member refid="class_player_control_1acb42219ae5dc549226b51cfc577d721a" prot="public" virt="non-virtual"><scope>PlayerControl</scope><name>Movement</name></member>
+      <member refid="class_player_control_1a8e9424a47b392f020f59ff034a835f61" prot="public" virt="non-virtual"><scope>PlayerControl</scope><name>moveSpeed</name></member>
+      <member refid="class_player_control_1a30a1fff00f7a4f392a47e7d686556280" prot="public" virt="non-virtual"><scope>PlayerControl</scope><name>moving</name></member>
+      <member refid="class_player_control_1ad57d6a43d50f3182376d9839579560e9" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>pColl</name></member>
+      <member refid="class_player_control_1a8a1217eb13287264e0e57c2eaf65c31c" prot="public" virt="non-virtual"><scope>PlayerControl</scope><name>playerOffset</name></member>
+      <member refid="class_player_control_1af8777c7ad58fa53be64c4c8c63864643" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>pRB</name></member>
+      <member refid="class_player_control_1a143a5a30d8c1082cb7fc34b1de3947e0" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>shaking</name></member>
+      <member refid="class_player_control_1aada0aa26ced08a253dfb12f7f1b8bd06" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>Start</name></member>
+      <member refid="class_player_control_1a9736d58588ccad0196f2a8a242eea37c" prot="public" virt="non-virtual"><scope>PlayerControl</scope><name>Taunt</name></member>
+      <member refid="class_player_control_1aa030b14f9c0fe12153375f5f2bbe5b60" prot="private" virt="non-virtual"><scope>PlayerControl</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

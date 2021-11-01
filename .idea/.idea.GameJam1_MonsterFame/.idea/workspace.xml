@@ -26,10 +26,10 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Game Jam MonsterFame/Scripts/GameData.cs" />
       <option value="$PROJECT_DIR$/Assets/Game Jam MonsterFame/Scripts/SCale.cs" />
-      <option value="$PROJECT_DIR$/Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game Jam MonsterFame/Scripts/PowerUp.cs" />
       <option value="$PROJECT_DIR$/Assets/Game Jam MonsterFame/Scripts/BuildingBehaviour.cs" />
       <option value="$PROJECT_DIR$/Assets/Game Jam MonsterFame/Scripts/SetingOptions.cs" />
-      <option value="$PROJECT_DIR$/Assets/Game Jam MonsterFame/Scripts/PowerUp.cs" />
+      <option value="$PROJECT_DIR$/Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1x7XFURgxxY6D6oO7w2wDkhMBip" />
@@ -80,7 +80,7 @@
       <workItem from="1630282544373" duration="9982000" />
       <workItem from="1630886318915" duration="14108000" />
       <workItem from="1631493092444" duration="17951000" />
-      <workItem from="1635723003458" duration="7323000" />
+      <workItem from="1635723003458" duration="10031000" />
     </task>
     <servers />
   </component>

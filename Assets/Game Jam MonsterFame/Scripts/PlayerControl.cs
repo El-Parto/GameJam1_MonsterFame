@@ -66,7 +66,10 @@ public class PlayerControl : MonoBehaviour
         
         
     }
-
+/// <summary>
+/// Makes the player move based on input (Horizontal and Jump)
+/// also checks whether or not it's possible to do these actions by checking a bool
+/// </summary>
     public void Movement()
     {
         float currentGravity = pRB.gravityScale;
@@ -150,13 +153,6 @@ public class PlayerControl : MonoBehaviour
     
     
 
-    public void Tackle()
-    {
-        if(Input.GetKeyDown(KeyCode.F))
-        {
-            
-        }
-    }
 
     /// <summary>
     /// The user performs a taunt that allows them to increase their score
