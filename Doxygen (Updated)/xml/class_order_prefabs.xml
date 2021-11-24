@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_order_prefabs" kind="class" language="C#" prot="public">
+    <compoundname>OrderPrefabs</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_order_prefabs_1abcbdef6232dacdd7772d4eec7807a771" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int OrderPrefabs.decal</definition>
+        <argsstring></argsstring>
+        <name>decal</name>
+        <initializer>= 6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/Scritps/OrderPrefabs.cs" line="7" column="5" bodyfile="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/Scritps/OrderPrefabs.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_order_prefabs_1a9a96e0725a6f8ef0d6f23e4a1073b844" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OrderPrefabs.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/Scritps/OrderPrefabs.cs" line="9" column="6" bodyfile="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/Scritps/OrderPrefabs.cs" bodystart="9" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>OrderPrefabs</label>
+        <link refid="class_order_prefabs"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>OrderPrefabs</label>
+        <link refid="class_order_prefabs"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/Scritps/OrderPrefabs.cs" line="5" column="7" bodyfile="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/Scritps/OrderPrefabs.cs" bodystart="6" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_order_prefabs_1abcbdef6232dacdd7772d4eec7807a771" prot="private" virt="non-virtual"><scope>OrderPrefabs</scope><name>decal</name></member>
+      <member refid="class_order_prefabs_1a9a96e0725a6f8ef0d6f23e4a1073b844" prot="private" virt="non-virtual"><scope>OrderPrefabs</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

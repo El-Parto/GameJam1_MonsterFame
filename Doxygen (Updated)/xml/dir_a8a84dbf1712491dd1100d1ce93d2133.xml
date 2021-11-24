@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_a8a84dbf1712491dd1100d1ce93d2133" kind="dir">
+    <compoundname>Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/EditorScripts</compoundname>
+    <innerfile refid="_open_more_games_8cs">OpenMoreGames.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/EditorScripts/"/>
+  </compounddef>
+</doxygen>

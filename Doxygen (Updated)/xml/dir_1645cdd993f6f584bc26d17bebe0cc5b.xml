@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_1645cdd993f6f584bc26d17bebe0cc5b" kind="dir">
+    <compoundname>Assets/Match 3 - Dark Monsters - Infinite Monster Builder/Scritps</compoundname>
+    <innerfile refid="_order_prefabs_8cs">OrderPrefabs.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/Scritps/"/>
+  </compounddef>
+</doxygen>

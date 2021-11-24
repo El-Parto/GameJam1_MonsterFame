@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_5fadf1bdb8a07a7487988467878f69e8" kind="dir">
+    <compoundname>Assets/Match 3 - Dark Monsters - Infinite Monster Builder</compoundname>
+    <innerdir refid="dir_1533e5896047b6011605a5afd5784bb6">Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup</innerdir>
+    <innerdir refid="dir_1645cdd993f6f584bc26d17bebe0cc5b">Assets/Match 3 - Dark Monsters - Infinite Monster Builder/Scritps</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_state_random" kind="class" language="C#" prot="public">
+    <compoundname>StateRandom</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">StateMachineBehaviour</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_state_random_1aba3374ed7b6830a4ad4ab9f1c53158be" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int StateRandom.AnimatorRandom</definition>
+        <argsstring></argsstring>
+        <name>AnimatorRandom</name>
+        <initializer>= Animator.StringToHash(&quot;Random&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/FreePixelMob/StateRandom.cs" line="4" column="12" bodyfile="Assets/FreePixelMob/StateRandom.cs" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_state_random_1a80662fbcc9b43e363a1a96e11e113703" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void StateRandom.OnStateEnter</definition>
+        <argsstring>(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)</argsstring>
+        <name>OnStateEnter</name>
+        <param>
+          <type>Animator</type>
+          <declname>animator</declname>
+        </param>
+        <param>
+          <type>AnimatorStateInfo</type>
+          <declname>stateInfo</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>layerIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/FreePixelMob/StateRandom.cs" line="5" column="22" bodyfile="Assets/FreePixelMob/StateRandom.cs" bodystart="5" bodyend="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>StateMachineBehaviour</label>
+      </node>
+      <node id="1">
+        <label>StateRandom</label>
+        <link refid="class_state_random"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>StateMachineBehaviour</label>
+      </node>
+      <node id="1">
+        <label>StateRandom</label>
+        <link refid="class_state_random"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/FreePixelMob/StateRandom.cs" line="2" column="7" bodyfile="Assets/FreePixelMob/StateRandom.cs" bodystart="3" bodyend="9"/>
+    <listofallmembers>
+      <member refid="class_state_random_1aba3374ed7b6830a4ad4ab9f1c53158be" prot="private" virt="non-virtual"><scope>StateRandom</scope><name>AnimatorRandom</name></member>
+      <member refid="class_state_random_1a80662fbcc9b43e363a1a96e11e113703" prot="public" virt="non-virtual"><scope>StateRandom</scope><name>OnStateEnter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

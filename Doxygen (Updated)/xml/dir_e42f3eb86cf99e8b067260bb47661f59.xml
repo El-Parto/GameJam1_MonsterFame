@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_e42f3eb86cf99e8b067260bb47661f59" kind="dir">
+    <compoundname>Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor</compoundname>
+    <innerfile refid="_autorun_8cs">Autorun.cs</innerfile>
+    <innerfile refid="_d_g_checker_8cs">DGChecker.cs</innerfile>
+    <innerfile refid="_platform_tools_8cs">PlatformTools.cs</innerfile>
+    <innerfile refid="_welcome_8cs">Welcome.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/"/>
+  </compounddef>
+</doxygen>

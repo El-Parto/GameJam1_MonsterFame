@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.2" xml:lang="en-US">
+  <compound refid="class_app_advisory_1_1_black_monster_pack_1_1_autorun" kind="class"><name>AppAdvisory::BlackMonsterPack::Autorun</name>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_autorun_1ac72a1ca139dc9c22b72c81daffac0075" kind="variable"><name>DOSCIRPTINGSYMBOL</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_autorun_1aec6e32640c108485d251aabe5ae1d0b5" kind="variable"><name>VSRATE</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_autorun_1ac06364f06e64ee18a3bd2ccf830804fc" kind="function"><name>IsPlatformSupported</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_autorun_1adfb60c93c6441b5f849185fea6a7c51e" kind="function"><name>SetScriptingDefineSymbols</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_autorun_1aaa38c23aba311363bb419ab09aa7f881" kind="function"><name>SetSymbolsForTarget</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_autorun_1a217f57afdeaff3e03f0e67f79e08c10a" kind="function"><name>Autorun</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_autorun_1af4071036e2666ef0d33ae3d27f0c9eb8" kind="function"><name>RunOnce</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_autorun_1a1de18278d6341f93026a731086fe0cb8" kind="function"><name>GetValues&lt; T &gt;</name></member>
+  </compound>
+  <compound refid="class_building_behaviour" kind="class"><name>BuildingBehaviour</name>
+    <member refid="class_building_behaviour_1a19a7072a65ed33dbdde9342d7df2b1a4" kind="variable"><name>gameData</name></member>
+    <member refid="class_building_behaviour_1ac32fa80431b11ad81a0fbdc1d489579b" kind="variable"><name>pCntrol</name></member>
+    <member refid="class_building_behaviour_1a591c5f6630bc01476ed71c9812f98239" kind="variable"><name>initialScale</name></member>
+    <member refid="class_building_behaviour_1a019d00944cef41ffff858c83969aeadf" kind="variable"><name>cityColl</name></member>
+    <member refid="class_building_behaviour_1a285b5d9298e2c07e4055386a7f9e8c4a" kind="variable"><name>cRB</name></member>
+    <member refid="class_building_behaviour_1ac3ab82dcf1f03d034daf644efd6a173a" kind="variable"><name>playerMsk</name></member>
+    <member refid="class_building_behaviour_1a36d481f12ed964493c24045f145eb96e" kind="variable"><name>playerPos</name></member>
+    <member refid="class_building_behaviour_1a4a9a6414976ac52f9f12317dc052f853" kind="variable"><name>screamingBeans</name></member>
+    <member refid="class_building_behaviour_1a016ff88f3543584c28f234a2d38b6404" kind="variable"><name>words</name></member>
+    <member refid="class_building_behaviour_1aa58b410f868f98b13b963a24aeb9e01e" kind="variable"><name>currentPos</name></member>
+    <member refid="class_building_behaviour_1a909b4565b53e543bf175294f720cf244" kind="function"><name>Start</name></member>
+    <member refid="class_building_behaviour_1a20313bd1fc4962e1cbc40dc9d76f114e" kind="function"><name>Update</name></member>
+    <member refid="class_building_behaviour_1a0684f155b037b4120ca37c9a855ecf0b" kind="function"><name>onTouch</name></member>
+    <member refid="class_building_behaviour_1acf95f740be750f704a23a0d2d069a3e7" kind="function"><name>OnCollisionEnter2D</name></member>
+    <member refid="class_building_behaviour_1a76a2946edd1e79bc4f6637842e1fac17" kind="function"><name>Touched</name></member>
+    <member refid="class_building_behaviour_1a7a44574347526762b829e8be44a14901" kind="function"><name>OnDestroy</name></member>
+  </compound>
+  <compound refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker" kind="class"><name>AppAdvisory::BlackMonsterPack::DGChecker</name>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1af09df1855be35e396f22c2480ce938a3" kind="variable"><name>AADotween</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a769a58c603578cd2932ae4ee8bcb103b" kind="variable"><name>needDotween</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a84c7adbb3f5d37bffa744b4dd016fdbf" kind="function"><name>OpenWelcomeWindow</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1afc314e8e49150a7299f4ec431de02f7e" kind="function"><name>OpenPopupDGCHECKERStartup</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1af3b14ebe5f8c1d390e424e0451292992" kind="function"><name>CheckItNow</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a6bf126a88ac3ccf3a74186cc9e873db9" kind="function"><name>GetValues&lt; T &gt;</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a85c77badc920e79e65d56f29bc22d0a6" kind="function"><name>DGChecker</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a8b041089094f82e297858c72cec80815" kind="function"><name>SetScriptingDefineSymbols</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a758c806f312528126f5156595dbca111" kind="function"><name>SetSymbolsForTarget</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1aed8a78850b98ace88bd0a79fc13bdaa5" kind="function"><name>IsPlatformSupported</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a4d0eff5248db3257b83c63a22e9bb1da" kind="function"><name>UnsetScriptingDefineSymbols</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a969820aab0606ce7eda740d616479a51" kind="function"><name>UnsetSymbolsForTarget</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a5985256c8d8773dfd561f7abadf7bc09" kind="function"><name>GetFilesDOTweenDLL</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a34aa93fba35cd68fb9be221344b56f9c" kind="function"><name>GetFilesDOTweenSettings</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a55ebed54edb271420543a23e494e3557" kind="function"><name>OnEnable</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a1c74ed7dd807b6940d0c6a376d85bb7e" kind="function"><name>OnGUI</name></member>
+  </compound>
+  <compound refid="class_game_data" kind="class"><name>GameData</name>
+    <member refid="class_game_data_1ac4f742cf29ee03016d263b5053874619" kind="variable"><name>score</name></member>
+    <member refid="class_game_data_1a7b8225b508c539cbea14a3e2ef14833a" kind="function"><name>Start</name></member>
+    <member refid="class_game_data_1a6bccee433f581754d2db729ca133b9a0" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_mobs" kind="class"><name>Mobs</name>
+    <member refid="class_mobs_1a959aff9e44cc003ba8ba3fea9c9abb51" kind="variable"><name>AnimatorWalk</name></member>
+    <member refid="class_mobs_1a4bc815968b56d9293f6b67b45a9a9867" kind="variable"><name>AnimatorAttack</name></member>
+    <member refid="class_mobs_1a89fcf76a37e0dc052eee43a90cbc2cf2" kind="variable"><name>_animator</name></member>
+    <member refid="class_mobs_1a98bf4f19b12e521c68d4ca71aadba2a2" kind="function"><name>Awake</name></member>
+    <member refid="class_mobs_1a95bd157040f5ad8a33f3912f4f4af9ed" kind="function"><name>Start</name></member>
+    <member refid="class_mobs_1a931e7421f8c2f5f0c03f8c3fd0107385" kind="function"><name>Animate</name></member>
+  </compound>
+  <compound refid="class_app_advisory_1_1_black_monster_pack_1_1_open_more_games" kind="class"><name>AppAdvisory::BlackMonsterPack::OpenMoreGames</name>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_open_more_games_1a20aae1683addc2bf4b10eaa7cbbcd8b1" kind="function"><name>OnClicked</name></member>
+  </compound>
+  <compound refid="class_order_prefabs" kind="class"><name>OrderPrefabs</name>
+    <member refid="class_order_prefabs_1abcbdef6232dacdd7772d4eec7807a771" kind="variable"><name>decal</name></member>
+    <member refid="class_order_prefabs_1a9a96e0725a6f8ef0d6f23e4a1073b844" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_platform_tools" kind="class"><name>PlatformTools</name>
+    <member refid="class_platform_tools_1a841eb8521a20217f24d40f2da894ea2c" kind="function"><name>Start</name></member>
+    <member refid="class_platform_tools_1a3fa89bb765a456c4ebbcc591c37c11b5" kind="function"><name>IsPlatformSupported</name></member>
+    <member refid="class_platform_tools_1a5900330503e1ccedf8d9de7638d50be8" kind="function"><name>Update</name></member>
+    <member refid="class_platform_tools_1a3d969ce2f3cc7cbe7826f0014f694c73" kind="function"><name>GetValues&lt; T &gt;</name></member>
+  </compound>
+  <compound refid="class_player_control" kind="class"><name>PlayerControl</name>
+    <member refid="class_player_control_1a8a1217eb13287264e0e57c2eaf65c31c" kind="variable"><name>playerOffset</name></member>
+    <member refid="class_player_control_1aaf0816c99e61394c6444ca570df79fcd" kind="variable"><name>buildingHit</name></member>
+    <member refid="class_player_control_1afe78cd48f387791a25a98c34a550d510" kind="variable"><name>canMove</name></member>
+    <member refid="class_player_control_1a30a1fff00f7a4f392a47e7d686556280" kind="variable"><name>moving</name></member>
+    <member refid="class_player_control_1a8e9424a47b392f020f59ff034a835f61" kind="variable"><name>moveSpeed</name></member>
+    <member refid="class_player_control_1a6dac3e9de8fe5262c19b77271c9919b8" kind="variable"><name>jumpHeight</name></member>
+    <member refid="class_player_control_1a12c8beb60f2f39db6e31871ce813de3e" kind="variable"><name>jumpSquatTimer</name></member>
+    <member refid="class_player_control_1a39d8415d269e497768e445b6cc6e7496" kind="variable"><name>isTaunting</name></member>
+    <member refid="class_player_control_1a56d837303f47a0b42ab349b88f680f3a" kind="variable"><name>anim</name></member>
+    <member refid="class_player_control_1a9b0613fabe9f78b1ae537a44d952d559" kind="variable"><name>cameraShakeGO</name></member>
+    <member refid="class_player_control_1a143a5a30d8c1082cb7fc34b1de3947e0" kind="variable"><name>shaking</name></member>
+    <member refid="class_player_control_1af8777c7ad58fa53be64c4c8c63864643" kind="variable"><name>pRB</name></member>
+    <member refid="class_player_control_1a08e255ff741261bdff85f0b14584c943" kind="variable"><name>lPlatMask</name></member>
+    <member refid="class_player_control_1a50476503f7087d832527392ae671908a" kind="variable"><name>buildMask</name></member>
+    <member refid="class_player_control_1a3988abdbc5843167fdc9f6b745c92e94" kind="variable"><name>isTackling</name></member>
+    <member refid="class_player_control_1a2eb8e4de7ee0aa87d7b64d3e3027b993" kind="variable"><name>canTaunt</name></member>
+    <member refid="class_player_control_1a7c5553db4ddaa1a96fb9f36ef401d677" kind="variable"><name>canScale</name></member>
+    <member refid="class_player_control_1a3c91000165c5f3ba2ce4f150b3c755ed" kind="variable"><name>isMoving</name></member>
+    <member refid="class_player_control_1a14276e7c8f4f181f6dff087089364e65" kind="variable"><name>chilColl</name></member>
+    <member refid="class_player_control_1ad57d6a43d50f3182376d9839579560e9" kind="variable"><name>pColl</name></member>
+    <member refid="class_player_control_1aada0aa26ced08a253dfb12f7f1b8bd06" kind="function"><name>Start</name></member>
+    <member refid="class_player_control_1aa030b14f9c0fe12153375f5f2bbe5b60" kind="function"><name>Update</name></member>
+    <member refid="class_player_control_1ab0b2079238f8f0042a7b9808c95a081d" kind="function"><name>IsGrounded</name></member>
+    <member refid="class_player_control_1acb42219ae5dc549226b51cfc577d721a" kind="function"><name>Movement</name></member>
+    <member refid="class_player_control_1a9736d58588ccad0196f2a8a242eea37c" kind="function"><name>Taunt</name></member>
+    <member refid="class_player_control_1a74016c846e28b62d87f89528dfd6b4d9" kind="function"><name>IsScaled</name></member>
+  </compound>
+  <compound refid="class_power_up" kind="class"><name>PowerUp</name>
+    <member refid="class_power_up_1affa247396f5e51e0fa5703548f99d626" kind="variable"><name>timer</name></member>
+    <member refid="class_power_up_1a42bad7a1553b5fb15533740a16881c40" kind="variable"><name>pCntrl</name></member>
+    <member refid="class_power_up_1a44ad1560817ea89004e3a36f2e29020d" kind="variable"><name>popUpText</name></member>
+    <member refid="class_power_up_1aa517b66551cc4f8569ffb1be96a09e4e" kind="variable"><name>initialScale</name></member>
+    <member refid="class_power_up_1a0301bb57f08c187852324d652e6d9bfe" kind="variable"><name>currentScale</name></member>
+    <member refid="class_power_up_1a7e8ae9238190cf9513cb6db5a402aa62" kind="variable"><name>countingDown</name></member>
+    <member refid="class_power_up_1ab7ec06ab0ae1fe91b255f17e391ea3f3" kind="function"><name>Start</name></member>
+    <member refid="class_power_up_1ace9ab229deb5c68b4aaa0c700c00b59b" kind="function"><name>Update</name></member>
+    <member refid="class_power_up_1a919ab1820888e0cc4188116cfa48c0d5" kind="function"><name>OnTriggerEnter2D</name></member>
+    <member refid="class_power_up_1abbc985a0a233dd84518b3ed1897494f2" kind="function"><name>OnTriggerExit2D</name></member>
+    <member refid="class_power_up_1a715815f68d78a55daaa1ca606061564d" kind="function"><name>OnDestroy</name></member>
+    <member refid="class_power_up_1a5a01a53dec4c4cea460131c18d6a1b88" kind="function"><name>OnTriggerStay2D</name></member>
+    <member refid="class_power_up_1ad12744abdb197179d3676b775671d092" kind="function"><name>Timer</name></member>
+  </compound>
+  <compound refid="class_seting_options" kind="class"><name>SetingOptions</name>
+    <member refid="class_seting_options_1a38f769f9ffab3f3e7e54e3337c1f4925" kind="variable"><name>resolutions</name></member>
+    <member refid="class_seting_options_1a81d26a2b344b5eb9de74d120dd82bcac" kind="variable"><name>resDrop</name></member>
+    <member refid="class_seting_options_1a54c9123e007a5d8aacadd4a545468268" kind="variable"><name>options</name></member>
+    <member refid="class_seting_options_1a902e2c668a5fc39639fd2cac141b9c2b" kind="variable"><name>currentResolutionIndex</name></member>
+    <member refid="class_seting_options_1ad5b6f8f89ae4eb88827fb53e3a972cd6" kind="variable"><name>fpsSlider</name></member>
+    <member refid="class_seting_options_1a4ab1b84f7b0a449f4dea8cd976bdc8dc" kind="variable"><name>fpsText</name></member>
+    <member refid="class_seting_options_1adfb92b398b5271a7b5cae6813919b212" kind="variable"><name>currentFPStext</name></member>
+    <member refid="class_seting_options_1ac0aa3e0c35b4770d632ca0e05c792b11" kind="function"><name>LimitFramerate</name></member>
+    <member refid="class_seting_options_1a972eaac4c95b93d0d6f8eb480a95c1a3" kind="function"><name>Update</name></member>
+    <member refid="class_seting_options_1a817b84d3acded5a4829afc1bfd77e90a" kind="function"><name>SetResolution</name></member>
+    <member refid="class_seting_options_1ae63fb0a4ade604e94a86d261c2bee983" kind="function"><name>Start</name></member>
+    <member refid="class_seting_options_1a9895d9aff1a5804edc42fb12482f45aa" kind="function"><name>StartResFPS</name></member>
+  </compound>
+  <compound refid="class_state_random" kind="class"><name>StateRandom</name>
+    <member refid="class_state_random_1aba3374ed7b6830a4ad4ab9f1c53158be" kind="variable"><name>AnimatorRandom</name></member>
+    <member refid="class_state_random_1a80662fbcc9b43e363a1a96e11e113703" kind="function"><name>OnStateEnter</name></member>
+  </compound>
+  <compound refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome" kind="class"><name>AppAdvisory::BlackMonsterPack::Welcome</name>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1a161e49748fecab01d790478906378809" kind="variable"><name>RATEUS_URL</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1a4257aa2eda75754efdd2150a7371357f" kind="variable"><name>NAME_OF_THE_GAME</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1aad52e795dda04a61f18515d2cbb51ab5" kind="variable"><name>VERYSIMPLEAD_URL</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1a02feba6bd45d567c51bd8e3aaf4a5a8d" kind="variable"><name>VERYSIMPLELEADERBOARD_URL</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1ab9498518813228115d69906bb760204c" kind="variable"><name>VERYSIMPLESHARE_URL</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1a48d2c7f41a6d45b2120de67ca149e516" kind="variable"><name>VERYSIMPLEGIF_URL</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1a03a9d360b62d6dfcccb8cce3c6227c4d" kind="variable"><name>VERYSIMPLERATE_URL</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1a12207faccfe7bd3e4f73306a84a0a707" kind="variable"><name>FACEBOOK_URL</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1aec15e1cbb110be8b8b504ec5dcd4cd40" kind="variable"><name>REQUEST_URL</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1a9f7d56371d0754f74b8de8129b6cfedb" kind="variable"><name>APPADVISORY_UNITY_CATALOG_URL</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1a096663b17bf4d75ee073046ad8dc96a3" kind="variable"><name>COMMUNITY_URL</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1aa25394da26c8be230c8be14cc0fa179e" kind="variable"><name>LINKEDIN_URL</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1a3bfb1d3758aae93fdb7093a6c52b2029" kind="variable"><name>width</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1a6979191d645b004cd7a03b24e9fed619" kind="variable"><name>height</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1ad6c8792fdadfb14ef43fcfa669d43cb6" kind="variable"><name>imgHeader</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1a80430afae51229b7304756f76eebe88f" kind="variable"><name>interfaceInitialized</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1ab562201f8a765bb234b3083ebdaad981" kind="variable"><name>adsIcon</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1aadd15b05785109a01486172dd9630fa0" kind="variable"><name>leaderboardIcon</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1af2aa4a5a7a5dd41b7454bf659c7fedb2" kind="variable"><name>shareIcon</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1a8999b71ad486582e70389d6183f6e7e4" kind="variable"><name>gifIcon</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1a257d59d5666947ee8ddc6905d906493e" kind="variable"><name>onlineDocIcon</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1a704035c99323a2a8a584957e1d6031a3" kind="variable"><name>moreGamesIcon</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1a066ce9a8e9e7adf01ab082f1337bb715" kind="variable"><name>rateIcon</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1a403ac30cd6b1a563eb0dd5b9e6d32080" kind="variable"><name>communityIcon</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1a492dee8a5bd89217f704e491f60e337c" kind="variable"><name>topicIcon</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1a1b70ddee8be84e1a1ffd93985fdbfc8a" kind="variable"><name>questionIcon</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1aa7b25a0223d0ffd5219f92a5ae2235e5" kind="variable"><name>facebookIcon</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1ab024bf0fa0d16ba1c2d74e514fd93d67" kind="variable"><name>vsrateIcon</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1add792bf28e4d91440fba36beba8e0c0c" kind="variable"><name>linkedinIcon</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1a1996d86f8064cbb15b8a67b7e6df9be6" kind="variable"><name>PREFSHOWATSTARTUP</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1a162436297dca8ff482e49bd9ed288aa4" kind="variable"><name>showAtStartup</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1ac794c72f189f5fb3d4e37239cab856b9" kind="function"><name>OpenWelcomeWindow</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1a5cadf15ffde81bef416621d417984296" kind="function"><name>OpenPopupStartup</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1a6cb93a08fe5aee62d824f11ea97685af" kind="function"><name>Welcome</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1ade0f1c4289135400412c1438306d0362" kind="function"><name>OnEnable</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1ace9a4b714fa93a3ec1326e45c33dea5a" kind="function"><name>GetInt</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1ad6046e25d0f60a043fdc9d98c862eb01" kind="function"><name>InitInterface</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1a3a279c0a1b367139c9f7c34056de91be" kind="function"><name>Button</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1ab417f73078d38143e03c211cacfbbb1a" kind="function"><name>Button2</name></member>
+    <member refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome_1a1d1d8b23a909c1e791af5b6af9105577" kind="function"><name>OnGUI</name></member>
+  </compound>
+  <compound refid="namespace_app_advisory" kind="namespace"><name>AppAdvisory</name>
+  </compound>
+  <compound refid="namespace_app_advisory_1_1_black_monster_pack" kind="namespace"><name>AppAdvisory::BlackMonsterPack</name>
+  </compound>
+  <compound refid="namespace_random" kind="namespace"><name>Random</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections" kind="namespace"><name>System::Collections</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text_1_1_regular_expressions" kind="namespace"><name>System::Text::RegularExpressions</name>
+  </compound>
+  <compound refid="namespace_t_m_pro" kind="namespace"><name>TMPro</name>
+  </compound>
+  <compound refid="namespace_unity_editor" kind="namespace"><name>UnityEditor</name>
+  </compound>
+  <compound refid="namespace_unity_editor_internal" kind="namespace"><name>UnityEditorInternal</name>
+  </compound>
+  <compound refid="namespace_unity_engine" kind="namespace"><name>UnityEngine</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_apple" kind="namespace"><name>UnityEngine::Apple</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_scene_management" kind="namespace"><name>UnityEngine::SceneManagement</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_u_i" kind="namespace"><name>UnityEngine::UI</name>
+  </compound>
+  <compound refid="_mobs_8cs" kind="file"><name>Mobs.cs</name>
+  </compound>
+  <compound refid="_state_random_8cs" kind="file"><name>StateRandom.cs</name>
+  </compound>
+  <compound refid="_building_behaviour_8cs" kind="file"><name>BuildingBehaviour.cs</name>
+    <member refid="_building_behaviour_8cs_1a24953b19d956caa76c403684c71b4e5b" kind="typedef"><name>Random</name></member>
+  </compound>
+  <compound refid="_game_data_8cs" kind="file"><name>GameData.cs</name>
+  </compound>
+  <compound refid="_player_control_8cs" kind="file"><name>PlayerControl.cs</name>
+  </compound>
+  <compound refid="_power_up_8cs" kind="file"><name>PowerUp.cs</name>
+  </compound>
+  <compound refid="_seting_options_8cs" kind="file"><name>SetingOptions.cs</name>
+  </compound>
+  <compound refid="_autorun_8cs" kind="file"><name>Autorun.cs</name>
+  </compound>
+  <compound refid="_d_g_checker_8cs" kind="file"><name>DGChecker.cs</name>
+  </compound>
+  <compound refid="_platform_tools_8cs" kind="file"><name>PlatformTools.cs</name>
+  </compound>
+  <compound refid="_welcome_8cs" kind="file"><name>Welcome.cs</name>
+  </compound>
+  <compound refid="_open_more_games_8cs" kind="file"><name>OpenMoreGames.cs</name>
+  </compound>
+  <compound refid="_order_prefabs_8cs" kind="file"><name>OrderPrefabs.cs</name>
+  </compound>
+  <compound refid="dir_84bbf7b3c7f28a5a18725745e1505219" kind="dir"><name>Assets</name>
+  </compound>
+  <compound refid="dir_e42f3eb86cf99e8b067260bb47661f59" kind="dir"><name>Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor</name>
+  </compound>
+  <compound refid="dir_1533e5896047b6011605a5afd5784bb6" kind="dir"><name>Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup</name>
+  </compound>
+  <compound refid="dir_a8a84dbf1712491dd1100d1ce93d2133" kind="dir"><name>Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/EditorScripts</name>
+  </compound>
+  <compound refid="dir_d5437422f980af1aed234f41c580e977" kind="dir"><name>Assets/FreePixelMob</name>
+  </compound>
+  <compound refid="dir_a64d38d9d7ec2fdf8f5daec1100fe138" kind="dir"><name>Assets/Game Jam MonsterFame</name>
+  </compound>
+  <compound refid="dir_5fadf1bdb8a07a7487988467878f69e8" kind="dir"><name>Assets/Match 3 - Dark Monsters - Infinite Monster Builder</name>
+  </compound>
+  <compound refid="dir_7fe200dfb6c454470a9831feb10ad68b" kind="dir"><name>Assets/Game Jam MonsterFame/Scripts</name>
+  </compound>
+  <compound refid="dir_1645cdd993f6f584bc26d17bebe0cc5b" kind="dir"><name>Assets/Match 3 - Dark Monsters - Infinite Monster Builder/Scritps</name>
+  </compound>
+</doxygenindex>

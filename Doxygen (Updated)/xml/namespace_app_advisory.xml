@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="namespace_app_advisory" kind="namespace" language="C#">
+    <compoundname>AppAdvisory</compoundname>
+    <innernamespace refid="namespace_app_advisory_1_1_black_monster_pack">AppAdvisory::BlackMonsterPack</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/Autorun.cs" line="37" column="1"/>
+  </compounddef>
+</doxygen>

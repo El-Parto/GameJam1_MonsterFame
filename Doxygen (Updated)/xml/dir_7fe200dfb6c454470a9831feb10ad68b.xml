@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_7fe200dfb6c454470a9831feb10ad68b" kind="dir">
+    <compoundname>Assets/Game Jam MonsterFame/Scripts</compoundname>
+    <innerfile refid="_building_behaviour_8cs">BuildingBehaviour.cs</innerfile>
+    <innerfile refid="_game_data_8cs">GameData.cs</innerfile>
+    <innerfile refid="_player_control_8cs">PlayerControl.cs</innerfile>
+    <innerfile refid="_power_up_8cs">PowerUp.cs</innerfile>
+    <innerfile refid="_seting_options_8cs">SetingOptions.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Assets/Game Jam MonsterFame/Scripts/"/>
+  </compounddef>
+</doxygen>

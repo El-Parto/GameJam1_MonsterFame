@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_mobs" kind="class" language="C#" prot="public">
+    <compoundname>Mobs</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_mobs_1a959aff9e44cc003ba8ba3fea9c9abb51" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int Mobs.AnimatorWalk</definition>
+        <argsstring></argsstring>
+        <name>AnimatorWalk</name>
+        <initializer>= Animator.StringToHash(&quot;Walk&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/FreePixelMob/Mobs.cs" line="6" column="12" bodyfile="Assets/FreePixelMob/Mobs.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mobs_1a4bc815968b56d9293f6b67b45a9a9867" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int Mobs.AnimatorAttack</definition>
+        <argsstring></argsstring>
+        <name>AnimatorAttack</name>
+        <initializer>= Animator.StringToHash(&quot;Attack&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/FreePixelMob/Mobs.cs" line="7" column="12" bodyfile="Assets/FreePixelMob/Mobs.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_mobs_1a89fcf76a37e0dc052eee43a90cbc2cf2" prot="private" static="no" mutable="no">
+        <type>Animator</type>
+        <definition>Animator Mobs._animator</definition>
+        <argsstring></argsstring>
+        <name>_animator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/FreePixelMob/Mobs.cs" line="8" column="10" bodyfile="Assets/FreePixelMob/Mobs.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_mobs_1a98bf4f19b12e521c68d4ca71aadba2a2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Mobs.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/FreePixelMob/Mobs.cs" line="9" column="6" bodyfile="Assets/FreePixelMob/Mobs.cs" bodystart="9" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mobs_1a95bd157040f5ad8a33f3912f4f4af9ed" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Mobs.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/FreePixelMob/Mobs.cs" line="13" column="6" bodyfile="Assets/FreePixelMob/Mobs.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mobs_1a931e7421f8c2f5f0c03f8c3fd0107385" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator Mobs.Animate</definition>
+        <argsstring>()</argsstring>
+        <name>Animate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/FreePixelMob/Mobs.cs" line="17" column="13" bodyfile="Assets/FreePixelMob/Mobs.cs" bodystart="17" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Mobs</label>
+        <link refid="class_mobs"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Mobs</label>
+        <link refid="class_mobs"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/FreePixelMob/Mobs.cs" line="4" column="7" bodyfile="Assets/FreePixelMob/Mobs.cs" bodystart="5" bodyend="41"/>
+    <listofallmembers>
+      <member refid="class_mobs_1a89fcf76a37e0dc052eee43a90cbc2cf2" prot="private" virt="non-virtual"><scope>Mobs</scope><name>_animator</name></member>
+      <member refid="class_mobs_1a931e7421f8c2f5f0c03f8c3fd0107385" prot="private" virt="non-virtual"><scope>Mobs</scope><name>Animate</name></member>
+      <member refid="class_mobs_1a4bc815968b56d9293f6b67b45a9a9867" prot="private" virt="non-virtual"><scope>Mobs</scope><name>AnimatorAttack</name></member>
+      <member refid="class_mobs_1a959aff9e44cc003ba8ba3fea9c9abb51" prot="private" virt="non-virtual"><scope>Mobs</scope><name>AnimatorWalk</name></member>
+      <member refid="class_mobs_1a98bf4f19b12e521c68d4ca71aadba2a2" prot="private" virt="non-virtual"><scope>Mobs</scope><name>Awake</name></member>
+      <member refid="class_mobs_1a95bd157040f5ad8a33f3912f4f4af9ed" prot="private" virt="non-virtual"><scope>Mobs</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

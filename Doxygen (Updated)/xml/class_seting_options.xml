@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_seting_options" kind="class" language="C#" prot="public">
+    <compoundname>SetingOptions</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_seting_options_1a38f769f9ffab3f3e7e54e3337c1f4925" prot="public" static="no" mutable="no">
+        <type>Resolution[]</type>
+        <definition>Resolution [] SetingOptions.resolutions</definition>
+        <argsstring></argsstring>
+        <name>resolutions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/SetingOptions.cs" line="13" column="19" bodyfile="Assets/Game Jam MonsterFame/Scripts/SetingOptions.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_seting_options_1a81d26a2b344b5eb9de74d120dd82bcac" prot="public" static="no" mutable="no">
+        <type>TMP_Dropdown</type>
+        <definition>TMP_Dropdown SetingOptions.resDrop</definition>
+        <argsstring></argsstring>
+        <name>resDrop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/SetingOptions.cs" line="14" column="21" bodyfile="Assets/Game Jam MonsterFame/Scripts/SetingOptions.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_seting_options_1a54c9123e007a5d8aacadd4a545468268" prot="private" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; SetingOptions.options</definition>
+        <argsstring></argsstring>
+        <name>options</name>
+        <initializer>= new List&lt;string&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/SetingOptions.cs" line="16" column="14" bodyfile="Assets/Game Jam MonsterFame/Scripts/SetingOptions.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_seting_options_1a902e2c668a5fc39639fd2cac141b9c2b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SetingOptions.currentResolutionIndex</definition>
+        <argsstring></argsstring>
+        <name>currentResolutionIndex</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/SetingOptions.cs" line="17" column="13" bodyfile="Assets/Game Jam MonsterFame/Scripts/SetingOptions.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_seting_options_1ad5b6f8f89ae4eb88827fb53e3a972cd6" prot="private" static="no" mutable="no">
+        <type>Slider</type>
+        <definition>Slider SetingOptions.fpsSlider</definition>
+        <argsstring></argsstring>
+        <name>fpsSlider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/SetingOptions.cs" line="25" column="17" bodyfile="Assets/Game Jam MonsterFame/Scripts/SetingOptions.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_seting_options_1a4ab1b84f7b0a449f4dea8cd976bdc8dc" prot="private" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI SetingOptions.fpsText</definition>
+        <argsstring></argsstring>
+        <name>fpsText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/SetingOptions.cs" line="26" column="26" bodyfile="Assets/Game Jam MonsterFame/Scripts/SetingOptions.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_seting_options_1adfb92b398b5271a7b5cae6813919b212" prot="private" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI SetingOptions.currentFPStext</definition>
+        <argsstring></argsstring>
+        <name>currentFPStext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/SetingOptions.cs" line="27" column="26" bodyfile="Assets/Game Jam MonsterFame/Scripts/SetingOptions.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_seting_options_1ac0aa3e0c35b4770d632ca0e05c792b11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetingOptions.LimitFramerate</definition>
+        <argsstring>()</argsstring>
+        <name>LimitFramerate</name>
+        <briefdescription>
+<para>Limits framerate according to a Slider value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/SetingOptions.cs" line="31" column="13" bodyfile="Assets/Game Jam MonsterFame/Scripts/SetingOptions.cs" bodystart="31" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_seting_options_1a972eaac4c95b93d0d6f8eb480a95c1a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetingOptions.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/SetingOptions.cs" line="124" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_seting_options_1a817b84d3acded5a4829afc1bfd77e90a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetingOptions.SetResolution</definition>
+        <argsstring>(int _resolution)</argsstring>
+        <name>SetResolution</name>
+        <param>
+          <type>int</type>
+          <declname>_resolution</declname>
+        </param>
+        <briefdescription>
+<para>sets the resolution based on the option chesen </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_resolution</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The resolutions that the computer can reach.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/SetingOptions.cs" line="130" column="13" bodyfile="Assets/Game Jam MonsterFame/Scripts/SetingOptions.cs" bodystart="130" bodyend="134"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_seting_options_1ae63fb0a4ade604e94a86d261c2bee983" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetingOptions.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/SetingOptions.cs" line="88" column="14" bodyfile="Assets/Game Jam MonsterFame/Scripts/SetingOptions.cs" bodystart="88" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_seting_options_1a9895d9aff1a5804edc42fb12482f45aa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SetingOptions.StartResFPS</definition>
+        <argsstring>()</argsstring>
+        <name>StartResFPS</name>
+        <briefdescription>
+<para>shows the resolution and FPS controls on screen like an adjustable hud. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/SetingOptions.cs" line="100" column="14" bodyfile="Assets/Game Jam MonsterFame/Scripts/SetingOptions.cs" bodystart="100" bodyend="122"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SetingOptions</label>
+        <link refid="class_seting_options"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>SetingOptions</label>
+        <link refid="class_seting_options"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Game Jam MonsterFame/Scripts/SetingOptions.cs" line="11" column="7" bodyfile="Assets/Game Jam MonsterFame/Scripts/SetingOptions.cs" bodystart="12" bodyend="135"/>
+    <listofallmembers>
+      <member refid="class_seting_options_1adfb92b398b5271a7b5cae6813919b212" prot="private" virt="non-virtual"><scope>SetingOptions</scope><name>currentFPStext</name></member>
+      <member refid="class_seting_options_1a902e2c668a5fc39639fd2cac141b9c2b" prot="private" virt="non-virtual"><scope>SetingOptions</scope><name>currentResolutionIndex</name></member>
+      <member refid="class_seting_options_1ad5b6f8f89ae4eb88827fb53e3a972cd6" prot="private" virt="non-virtual"><scope>SetingOptions</scope><name>fpsSlider</name></member>
+      <member refid="class_seting_options_1a4ab1b84f7b0a449f4dea8cd976bdc8dc" prot="private" virt="non-virtual"><scope>SetingOptions</scope><name>fpsText</name></member>
+      <member refid="class_seting_options_1ac0aa3e0c35b4770d632ca0e05c792b11" prot="public" virt="non-virtual"><scope>SetingOptions</scope><name>LimitFramerate</name></member>
+      <member refid="class_seting_options_1a54c9123e007a5d8aacadd4a545468268" prot="private" virt="non-virtual"><scope>SetingOptions</scope><name>options</name></member>
+      <member refid="class_seting_options_1a81d26a2b344b5eb9de74d120dd82bcac" prot="public" virt="non-virtual"><scope>SetingOptions</scope><name>resDrop</name></member>
+      <member refid="class_seting_options_1a38f769f9ffab3f3e7e54e3337c1f4925" prot="public" virt="non-virtual"><scope>SetingOptions</scope><name>resolutions</name></member>
+      <member refid="class_seting_options_1a817b84d3acded5a4829afc1bfd77e90a" prot="public" virt="non-virtual"><scope>SetingOptions</scope><name>SetResolution</name></member>
+      <member refid="class_seting_options_1ae63fb0a4ade604e94a86d261c2bee983" prot="private" virt="non-virtual"><scope>SetingOptions</scope><name>Start</name></member>
+      <member refid="class_seting_options_1a9895d9aff1a5804edc42fb12482f45aa" prot="private" virt="non-virtual"><scope>SetingOptions</scope><name>StartResFPS</name></member>
+      <member refid="class_seting_options_1a972eaac4c95b93d0d6f8eb480a95c1a3" prot="public" virt="non-virtual"><scope>SetingOptions</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

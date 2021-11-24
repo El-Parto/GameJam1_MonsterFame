@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker" kind="class" language="C#" prot="public">
+    <compoundname>AppAdvisory::BlackMonsterPack::DGChecker</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">EditorWindow</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1af09df1855be35e396f22c2480ce938a3" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string AppAdvisory.BlackMonsterPack.DGChecker.AADotween</definition>
+        <argsstring></argsstring>
+        <name>AADotween</name>
+        <initializer>= &quot;AADOTWEEN&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/DGChecker.cs" line="36" column="22" bodyfile="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/DGChecker.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a769a58c603578cd2932ae4ee8bcb103b" prot="public" static="yes" mutable="no">
+        <type>const bool</type>
+        <definition>const bool AppAdvisory.BlackMonsterPack.DGChecker.needDotween</definition>
+        <argsstring></argsstring>
+        <name>needDotween</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/DGChecker.cs" line="43" column="19" bodyfile="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/DGChecker.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a84c7adbb3f5d37bffa744b4dd016fdbf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AppAdvisory.BlackMonsterPack.DGChecker.OpenWelcomeWindow</definition>
+        <argsstring>()</argsstring>
+        <name>OpenWelcomeWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/DGChecker.cs" line="50" column="20" bodyfile="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/DGChecker.cs" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1afc314e8e49150a7299f4ec431de02f7e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AppAdvisory.BlackMonsterPack.DGChecker.OpenPopupDGCHECKERStartup</definition>
+        <argsstring>()</argsstring>
+        <name>OpenPopupDGCHECKERStartup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/DGChecker.cs" line="62" column="20" bodyfile="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/DGChecker.cs" bodystart="62" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1af3b14ebe5f8c1d390e424e0451292992" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AppAdvisory.BlackMonsterPack.DGChecker.CheckItNow</definition>
+        <argsstring>()</argsstring>
+        <name>CheckItNow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/DGChecker.cs" line="149" column="20" bodyfile="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/DGChecker.cs" bodystart="149" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a6bf126a88ac3ccf3a74186cc9e873db9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; T &gt;</type>
+        <definition>static IEnumerable&lt; T &gt; AppAdvisory.BlackMonsterPack.DGChecker.GetValues&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>GetValues&lt; T &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/DGChecker.cs" line="260" column="1" bodyfile="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/DGChecker.cs" bodystart="260" bodyend="262"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a85c77badc920e79e65d56f29bc22d0a6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static AppAdvisory.BlackMonsterPack.DGChecker.DGChecker</definition>
+        <argsstring>()</argsstring>
+        <name>DGChecker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/DGChecker.cs" line="55" column="8" bodyfile="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/DGChecker.cs" bodystart="55" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a8b041089094f82e297858c72cec80815" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AppAdvisory.BlackMonsterPack.DGChecker.SetScriptingDefineSymbols</definition>
+        <argsstring>()</argsstring>
+        <name>SetScriptingDefineSymbols</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/DGChecker.cs" line="183" column="13" bodyfile="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/DGChecker.cs" bodystart="183" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a758c806f312528126f5156595dbca111" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AppAdvisory.BlackMonsterPack.DGChecker.SetSymbolsForTarget</definition>
+        <argsstring>(BuildTargetGroup target, string scriptingSymbol)</argsstring>
+        <name>SetSymbolsForTarget</name>
+        <param>
+          <type>BuildTargetGroup</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>scriptingSymbol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/DGChecker.cs" line="232" column="13" bodyfile="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/DGChecker.cs" bodystart="232" bodyend="249"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1aed8a78850b98ace88bd0a79fc13bdaa5" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool AppAdvisory.BlackMonsterPack.DGChecker.IsPlatformSupported</definition>
+        <argsstring>(BuildTargetGroup target)</argsstring>
+        <name>IsPlatformSupported</name>
+        <param>
+          <type>BuildTargetGroup</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/DGChecker.cs" line="252" column="21" bodyfile="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/DGChecker.cs" bodystart="252" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a4d0eff5248db3257b83c63a22e9bb1da" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AppAdvisory.BlackMonsterPack.DGChecker.UnsetScriptingDefineSymbols</definition>
+        <argsstring>()</argsstring>
+        <name>UnsetScriptingDefineSymbols</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/DGChecker.cs" line="264" column="13" bodyfile="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/DGChecker.cs" bodystart="264" bodyend="310"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a969820aab0606ce7eda740d616479a51" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AppAdvisory.BlackMonsterPack.DGChecker.UnsetSymbolsForTarget</definition>
+        <argsstring>(BuildTargetGroup target, string scriptingSymbol)</argsstring>
+        <name>UnsetSymbolsForTarget</name>
+        <param>
+          <type>BuildTargetGroup</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>scriptingSymbol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/DGChecker.cs" line="313" column="13" bodyfile="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/DGChecker.cs" bodystart="313" bodyend="327"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-static-func">
+      <memberdef kind="function" id="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a5985256c8d8773dfd561f7abadf7bc09" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; string &gt;</type>
+        <definition>static List&lt; string &gt; AppAdvisory.BlackMonsterPack.DGChecker.GetFilesDOTweenDLL</definition>
+        <argsstring>()</argsstring>
+        <name>GetFilesDOTweenDLL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/DGChecker.cs" line="68" column="23" bodyfile="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/DGChecker.cs" bodystart="68" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a34aa93fba35cd68fb9be221344b56f9c" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; string &gt;</type>
+        <definition>static List&lt; string &gt; AppAdvisory.BlackMonsterPack.DGChecker.GetFilesDOTweenSettings</definition>
+        <argsstring>()</argsstring>
+        <name>GetFilesDOTweenSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/DGChecker.cs" line="113" column="23" bodyfile="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/DGChecker.cs" bodystart="113" bodyend="147"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a55ebed54edb271420543a23e494e3557" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AppAdvisory.BlackMonsterPack.DGChecker.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/DGChecker.cs" line="329" column="6" bodyfile="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/DGChecker.cs" bodystart="329" bodyend="334"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a1c74ed7dd807b6940d0c6a376d85bb7e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AppAdvisory.BlackMonsterPack.DGChecker.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/DGChecker.cs" line="336" column="13" bodyfile="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/DGChecker.cs" bodystart="336" bodyend="346"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AppAdvisory.BlackMonsterPack.DGChecker</label>
+        <link refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>EditorWindow</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AppAdvisory.BlackMonsterPack.DGChecker</label>
+        <link refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>EditorWindow</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/DGChecker.cs" line="34" column="7" bodyfile="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/DGChecker.cs" bodystart="35" bodyend="348"/>
+    <listofallmembers>
+      <member refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1af09df1855be35e396f22c2480ce938a3" prot="private" virt="non-virtual"><scope>AppAdvisory::BlackMonsterPack::DGChecker</scope><name>AADotween</name></member>
+      <member refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1af3b14ebe5f8c1d390e424e0451292992" prot="public" virt="non-virtual"><scope>AppAdvisory::BlackMonsterPack::DGChecker</scope><name>CheckItNow</name></member>
+      <member refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a85c77badc920e79e65d56f29bc22d0a6" prot="private" virt="non-virtual"><scope>AppAdvisory::BlackMonsterPack::DGChecker</scope><name>DGChecker</name></member>
+      <member refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a5985256c8d8773dfd561f7abadf7bc09" prot="protected" virt="non-virtual"><scope>AppAdvisory::BlackMonsterPack::DGChecker</scope><name>GetFilesDOTweenDLL</name></member>
+      <member refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a34aa93fba35cd68fb9be221344b56f9c" prot="protected" virt="non-virtual"><scope>AppAdvisory::BlackMonsterPack::DGChecker</scope><name>GetFilesDOTweenSettings</name></member>
+      <member refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a6bf126a88ac3ccf3a74186cc9e873db9" prot="public" virt="non-virtual"><scope>AppAdvisory::BlackMonsterPack::DGChecker</scope><name>GetValues&lt; T &gt;</name></member>
+      <member refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1aed8a78850b98ace88bd0a79fc13bdaa5" prot="private" virt="non-virtual"><scope>AppAdvisory::BlackMonsterPack::DGChecker</scope><name>IsPlatformSupported</name></member>
+      <member refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a769a58c603578cd2932ae4ee8bcb103b" prot="public" virt="non-virtual"><scope>AppAdvisory::BlackMonsterPack::DGChecker</scope><name>needDotween</name></member>
+      <member refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a55ebed54edb271420543a23e494e3557" prot="private" virt="non-virtual"><scope>AppAdvisory::BlackMonsterPack::DGChecker</scope><name>OnEnable</name></member>
+      <member refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a1c74ed7dd807b6940d0c6a376d85bb7e" prot="public" virt="non-virtual"><scope>AppAdvisory::BlackMonsterPack::DGChecker</scope><name>OnGUI</name></member>
+      <member refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1afc314e8e49150a7299f4ec431de02f7e" prot="public" virt="non-virtual"><scope>AppAdvisory::BlackMonsterPack::DGChecker</scope><name>OpenPopupDGCHECKERStartup</name></member>
+      <member refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a84c7adbb3f5d37bffa744b4dd016fdbf" prot="public" virt="non-virtual"><scope>AppAdvisory::BlackMonsterPack::DGChecker</scope><name>OpenWelcomeWindow</name></member>
+      <member refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a8b041089094f82e297858c72cec80815" prot="private" virt="non-virtual"><scope>AppAdvisory::BlackMonsterPack::DGChecker</scope><name>SetScriptingDefineSymbols</name></member>
+      <member refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a758c806f312528126f5156595dbca111" prot="private" virt="non-virtual"><scope>AppAdvisory::BlackMonsterPack::DGChecker</scope><name>SetSymbolsForTarget</name></member>
+      <member refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a4d0eff5248db3257b83c63a22e9bb1da" prot="private" virt="non-virtual"><scope>AppAdvisory::BlackMonsterPack::DGChecker</scope><name>UnsetScriptingDefineSymbols</name></member>
+      <member refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker_1a969820aab0606ce7eda740d616479a51" prot="private" virt="non-virtual"><scope>AppAdvisory::BlackMonsterPack::DGChecker</scope><name>UnsetSymbolsForTarget</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

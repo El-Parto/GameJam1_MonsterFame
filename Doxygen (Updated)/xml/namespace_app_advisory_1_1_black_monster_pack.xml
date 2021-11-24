@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="namespace_app_advisory_1_1_black_monster_pack" kind="namespace" language="C#">
+    <compoundname>AppAdvisory::BlackMonsterPack</compoundname>
+    <innerclass refid="class_app_advisory_1_1_black_monster_pack_1_1_autorun" prot="public">AppAdvisory::BlackMonsterPack::Autorun</innerclass>
+    <innerclass refid="class_app_advisory_1_1_black_monster_pack_1_1_d_g_checker" prot="public">AppAdvisory::BlackMonsterPack::DGChecker</innerclass>
+    <innerclass refid="class_app_advisory_1_1_black_monster_pack_1_1_open_more_games" prot="public">AppAdvisory::BlackMonsterPack::OpenMoreGames</innerclass>
+    <innerclass refid="class_app_advisory_1_1_black_monster_pack_1_1_welcome" prot="public">AppAdvisory::BlackMonsterPack::Welcome</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This must be added to &quot;Editor&quot; folder: <ulink url="http://unity3d.com/support/documentation/ScriptReference/index.Script_compilation_28Advanced29.html">http://unity3d.com/support/documentation/ScriptReference/index.Script_compilation_28Advanced29.html</ulink> Execute some code exactly once, whenever the project is opened, recompiled, or run. </para>
+    </detaileddescription>
+    <location file="Assets/Match 3 - Dark Monsters - Infinite Monster Builder/EditorPopup/Editor/Autorun.cs" line="37" column="1"/>
+  </compounddef>
+</doxygen>

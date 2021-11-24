@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_game_data" kind="class" language="C#" prot="public">
+    <compoundname>GameData</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_game_data_1ac4f742cf29ee03016d263b5053874619" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float GameData.score</definition>
+        <argsstring></argsstring>
+        <name>score</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/GameData.cs" line="7" column="18" bodyfile="Assets/Game Jam MonsterFame/Scripts/GameData.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_game_data_1a7b8225b508c539cbea14a3e2ef14833a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameData.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/GameData.cs" line="11" column="10" bodyfile="Assets/Game Jam MonsterFame/Scripts/GameData.cs" bodystart="11" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_game_data_1a6bccee433f581754d2db729ca133b9a0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameData.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Game Jam MonsterFame/Scripts/GameData.cs" line="17" column="10" bodyfile="Assets/Game Jam MonsterFame/Scripts/GameData.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GameData</label>
+        <link refid="class_game_data"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GameData</label>
+        <link refid="class_game_data"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Game Jam MonsterFame/Scripts/GameData.cs" line="5" column="7" bodyfile="Assets/Game Jam MonsterFame/Scripts/GameData.cs" bodystart="6" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_game_data_1ac4f742cf29ee03016d263b5053874619" prot="public" virt="non-virtual"><scope>GameData</scope><name>score</name></member>
+      <member refid="class_game_data_1a7b8225b508c539cbea14a3e2ef14833a" prot="public" virt="non-virtual"><scope>GameData</scope><name>Start</name></member>
+      <member refid="class_game_data_1a6bccee433f581754d2db729ca133b9a0" prot="private" virt="non-virtual"><scope>GameData</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
