@@ -42,7 +42,7 @@ public class SetingOptions : MonoBehaviour
 		
 
 		Application.targetFrameRate = Mathf.RoundToInt(fpsSlider.value);
-		fpsText.text = fpsSlider.value.ToString("F0");
+		fpsText.text = $"FPS:{fpsSlider.value.ToString("F0")}";
 
 
 /*
@@ -107,14 +107,15 @@ public class SetingOptions : MonoBehaviour
 		{
 			string option = resolutions[i].width + " x " + resolutions[i].height;
 			options.Add(option);
-			if(resolutions[i].width == Screen.width && resolutions[i].height == Screen.height)
+			if(resolutions[i].width == Screen.currentResolution.width && resolutions[i].height == Screen.currentResolution.height)
 			{
 				currentResolutionIndex = i;
 			}
 		}
 		resDrop.AddOptions(options);
-		resDrop.value = currentResolutionIndex;
 		resDrop.RefreshShownValue();	
+		resDrop.value = currentResolutionIndex;
+		
 
 		
 		
@@ -129,6 +130,6 @@ public class SetingOptions : MonoBehaviour
 	public void SetResolution(int _resolution)
 	{
 		Resolution neverReachedA = resolutions[_resolution];
-		Screen.SetResolution(neverReachedA.width, neverReachedA.height, Screen.fullScreen);
+		Screen.SetResolution(neverReachedA.width, neverReachedA.height, FullScreenMode.Windowed);
 	}
 }

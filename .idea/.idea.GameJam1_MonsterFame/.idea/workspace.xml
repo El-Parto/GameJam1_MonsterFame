@@ -20,6 +20,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Game Jam MonsterFame/Scripts/GameData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../2DOneButtonGame/Assets/2DOneButtonGame/Scripts/RestartGame.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game Jam MonsterFame/Scripts/PowerUp.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -46,6 +47,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../UnityBuilds/GAmeJam1\GameJam MonsterStar.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Frank\Documents\UnityBuilds\GAmeJam1" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -80,7 +89,8 @@
       <workItem from="1630282544373" duration="9982000" />
       <workItem from="1630886318915" duration="14108000" />
       <workItem from="1631493092444" duration="17951000" />
-      <workItem from="1635723003458" duration="10031000" />
+      <workItem from="1635723003458" duration="12736000" />
+      <workItem from="1637675743704" duration="4163000" />
     </task>
     <servers />
   </component>
@@ -99,8 +109,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Game Jam MonsterFame/Scripts/PlayerControl.cs</url>
+          <line>62</line>
+          <properties documentPath="C:\Users\Frank\Documents\GitHub\GameJam1_MonsterFame\Assets\Game Jam MonsterFame\Scripts\PlayerControl.cs" initialLine="59" containingFunctionPresentation="method 'Update'">
+            <startOffsets>
+              <option value="1822" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1872" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

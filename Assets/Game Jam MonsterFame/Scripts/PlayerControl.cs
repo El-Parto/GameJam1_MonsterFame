@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerControl : MonoBehaviour
 {
@@ -37,6 +38,7 @@ public class PlayerControl : MonoBehaviour
         //public bool isGrounded = false;
 
     //public float distToGround;
+    public Animator anim;
     
     
     // Start is called before the first frame update
@@ -44,6 +46,7 @@ public class PlayerControl : MonoBehaviour
     {
         pRB= GetComponent<Rigidbody2D>();
         chilColl = GetComponentInChildren<Collider2D>();
+        anim = GetComponentInChildren<Animator>();
         pColl = GetComponent<Collider2D>();
         lPlatMask = LayerMask.GetMask("Platform");
         buildMask = LayerMask.GetMask("Building");
@@ -53,6 +56,7 @@ public class PlayerControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         pRB.velocity = new Vector2(moving, pRB.velocity.y);
         Movement();
         Taunt();
@@ -62,9 +66,23 @@ public class PlayerControl : MonoBehaviour
             isMoving = true;
         else
             isMoving = false;
-        
-        
-        
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            #if UNITY_EDITOR
+                UnityEditor.EditorApplication.isPlaying = false;
+            #else
+                Application.Quit();
+            #endif
+        }
+
+        if(Input.GetKeyDown(KeyCode.P))
+        {
+            SceneManager.LoadScene("SampleScene");
+        }
+            
+
+
+
     }
 /// <summary>
 /// Makes the player move based on input (Horizontal and Jump)
@@ -76,11 +94,20 @@ public class PlayerControl : MonoBehaviour
         // horizontal
         if(canMove)
         {
-            float maxSpeed = Mathf.Lerp(0, moveSpeed, 1);
-
-            moving = Input.GetAxisRaw("Horizontal") * (maxSpeed * Time.fixedDeltaTime);
-
+            if(Input.GetButton("Horizontal"))
+            {
+                float maxSpeed = Mathf.Lerp(0, moveSpeed, 1);
+                moving = Input.GetAxisRaw("Horizontal") * (maxSpeed * Time.fixedDeltaTime);    
+                anim.SetBool("Walk", true);
+                
+            }
+            else if (Input.GetButtonUp("Horizontal"))
+            {
+                anim.SetBool("Walk", false);
+                moving = 0;
+            }
         }
+        
 
         //vertical
         if(canMove)
@@ -89,6 +116,9 @@ public class PlayerControl : MonoBehaviour
             {
                 pRB.AddForce(Vector2.up * jumpHeight, ForceMode2D.Impulse);
                 isMoving = true;
+                anim.SetBool("Jump",true);
+                anim.SetBool("Walk", false);
+                anim.SetBool("Idle", false);
             }
 
 
@@ -99,6 +129,11 @@ public class PlayerControl : MonoBehaviour
         if(!IsGrounded())
         {
             pRB.velocity = new Vector2(moving * 0.5f, pRB.velocity.y);
+            anim.SetBool("Jump",true);
+        }
+        else
+        {
+            anim.SetBool("Jump",false);
         }
 
 
@@ -130,7 +165,7 @@ public class PlayerControl : MonoBehaviour
         return raycastHit.collider != null;
     }
 
-    public bool BodySlammed()
+    /*public bool BodySlammed()
     {
         float heightLenience = .01f;
         //using the thing below with the raycast, if you're too exact, just like using == instead of >= or <= it could cause problems
@@ -149,7 +184,7 @@ public class PlayerControl : MonoBehaviour
 
         // this sets the bool for IsGrounded. If the raycast hits a collider that isn't null (or if the ray cast isn't touching a collider at the moment.
         return buildingHit.collider != null;
-    }
+    }*/
     
     
 
